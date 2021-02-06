@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to right, #f7054f, #485af2);
+}
+
+#nameschool {
+    color: black;
+    font-family: fantasy;
+    padding-top: 18px;
+}
+
+#address {
+    color: floralwhite;
+    font-family: 'Lobster', cursive;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 18px;
+}
+
+#schoolimg {
+    border: 5px solid;
+    border-color: darkgreen;
+    border-radius: 10px;
+    height: 400px;
+    width: 750px;
+}
+
+.links,
+.navbar-brand {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links: hover {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.menu {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 33px;
+    margin-top: 0px;
+    z-index: 10;
+    top: 0px;
+}
+
+#number {
+    font-size: 30px;
+    border: 3px solid;
+    border-color: black;
+    color: antiquewhite;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+#title {
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 340px;
+    margin: 8px auto;
+}
+
+#song,
+#alumni {
+    font-size: 20px;
+    color: cornsilk;
+    font-family: monospace;
+    text-align: center;
+    padding-left: 20px;
+}
+
+marquee {
+    font-size: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
